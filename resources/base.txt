@@ -1,0 +1,22 @@
+Menu:
+    Home: basic overview
+    Family and Adjacent Humans: people I know
+    Music: instruments I play
+    Crafts: Things I make
+    School and Other Distractions: Academics, Karate, Badminton, Coding
+Home page:
+    Welcome, dear traveller, to my little corner of the internet.
+    I do hope that line isn't cliched, as I found it on a friend's website and found it interesting.
+    Unfortunately all my other website ideas proved too complex to make, and so 
+    this is a rather dull website about myself.
+    Because I don't know what else to put on this home page, I made this a contents page. Below you wil find a basic overview of each page,
+    which you don't have to read, they're mostly just here to fill space.
+
+    <references>
+Family:
+    Mum, Dad, Nat, Micheal, and a pet armadillo named Plato.
+    For those doubting the veracity of those claims, I admit that I don't have a brother.
+School:
+    karate medals, badminton, etc
+    For those who share the below interests, I apologize for referencing to them as "other distractions".
+    I thought that would be a good place to put a Bill Bryson reference, which I sincerely hope none of you get.
