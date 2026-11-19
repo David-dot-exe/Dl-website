@@ -18,6 +18,11 @@ code {
 }
 img {/* ALT TEXT COLOUR */
     color: #8490A8;
+    object-fit: cover;
+}
+sup {
+    font-size: 0.7rem;
+    color: #8490A8;
 }
 
 /* MINI ELEMENTS: INLINE ADDITIONS */
@@ -133,9 +138,9 @@ header img {
     align-items: flex-start;
     gap: 100px;
 
-    height: 250px;
+    height: 270px;
     width: 1120px;
-    padding-top: 30px;
+    padding-top: 36px;
     padding-bottom: 25px;
     padding-left: 36px;
     padding-right: 36px;
@@ -166,7 +171,7 @@ header img {
     width: 550px; /* 55%*/
     height: fit-content;
     color: #d5d5e8;
-    font-size: 1rem;
+    font-size: 1.05rem;
     line-height: 1.4;
     /* border: dotted 2px #03e09e; DEBUG LINE */
 }
@@ -217,7 +222,7 @@ header img {
 /* SPLIT BOX STYLES */
 .splitLine.contentBar {
     border: none;
-    height: 370px;
+    height: 380px;
     width: 1196px;
     padding-left: 0px;
     padding-right: 0px;
@@ -244,8 +249,8 @@ header img {
     height: 100%;
     width: 60%;
     border-bottom: solid 2px #174d39;
-    padding-left: 36px;
-    padding-right: 36px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .splitLine.contentBar img {
     width: 400px;
@@ -261,18 +266,17 @@ header img {
 /* END OF SPLIT BOX STYLES */
 
 /* START OF FOUR BOXES STYLES */
-#fourPackage.contentBar {
+.package.contentBar {
     height: 370px;
     display: block;
     padding-top: 0px;
 }
-#fourPackage.contentBar .textBox {
+.package.contentBar .textBox {
     display: block;
     margin: 10px;
+    margin-top: 30px;
 }
-.fourBox {
-    height: 150px;
-    width: 48%;
+.box {
     padding: 0px;
     border-right: solid 2px #03e09e;
     border-left: solid 2px #1a5e45;
@@ -282,42 +286,92 @@ header img {
     display: inline-block;
     vertical-align: top;
 }
-.fourBox img {
-    border: none;
-    border-left: solid 2px #1a5e45;
-    margin: 0px;
-    margin-left: 15px;
+.box img {
+    position: relative;
+    z-index: -1;
     height: 100%;
-    width: 150px;
+    border-right: solid 2px #03e09e;
+    border-left: solid 2px #1a5e45;
+    border-top: solid 2px #03e09e;
+    border-bottom: solid 2px #1a5e45;
+    margin: -2px;
+    margin-left: 15px;
     float: right;
 }
-.fourBox h1 {
+.box .imgCont {
+    height: min-content;
+    width: min-content;
+    margin: 5%;
+}
+.box h1 {
     color: #03e09e;
     font-size: 1.3rem;
     margin-top: 10px;
     margin-bottom: 5px;
     margin-left: 15px;
 }
-.fourBox p {
+.box p {
     color: #d2dcf9;
     font-size: 1.1rem;
     margin-top: 5px;
     margin-left: 15px;
+    margin-right: 15px;
     height: 40%;
 }
-.fourBox a {
+.box a {
     width: max-content;
     font-size: 1rem;
     margin-left: 15px;
 }
-.fourBox a:link, .fourBox a:visited {
+.box a:link, .box a:visited {
     color: #80dbb7;
     text-decoration: none;
     position: block;
 }
-.fourBox a:hover, .fourBox a:active {
+.box a:hover, .box a:active {
     color: #03e09e;
     text-decoration: underline;
+}
+
+/* SPECIFIC SMALL BOX STYELS */
+.fourth img {
+    width: 150px;
+}
+.third img {
+    width: 90%;
+    height: 40%;
+    margin: 5%;
+}
+.half img {
+    width: 90%;
+    height: 50%;
+    margin: 5%
+}
+.fourth {
+    height: 150px;
+    width: 48%;
+}
+.third p {
+    height: 40%;
+    margin-bottom: 0px;
+}
+.third {
+    height: 400px;
+    width: 31%;
+    border-right: solid 3px #03e09e;
+    border-left: solid 3px #1a5e45;
+    border-top: solid 3px #03e09e;
+    border-bottom: solid 3px #1a5e45;
+}
+.half {
+    height: 300px;
+    width: 48%;
+}
+.half p {
+    height: 20%;
+}
+#three.package.contentBar {
+    height: fit-content;
 }
 
 /* DOUBLE IMAGE STYLES */
